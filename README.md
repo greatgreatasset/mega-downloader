@@ -10,6 +10,20 @@ zips), using **Real-Debrid** as the byte source to sidestep MEGA's 5 GB cap.
 > MEGA and is therefore subject to MEGA's normal quota — without an RD token
 > this tool loses its main advantage.
 
+## Install (Windows)
+
+Grab the latest installer from the
+[Releases page](https://github.com/greatgreatasset/mega-downloader/releases)
+and run it.
+
+> **Windows SmartScreen warning:** the installer is **not code-signed**, so
+> Windows will show *"Windows protected your PC"* the first time you run it.
+> Click **More info → Run anyway**. This is expected for unsigned open-source
+> software — if you'd rather not trust a prebuilt binary, build it yourself
+> from source (instructions below).
+
+This software is provided as-is, with no warranty or support.
+
 ## Purpose
 
 The installer ships a desktop app that does two things existing tools don't do
@@ -146,3 +160,7 @@ All phases complete and verified end-to-end (14 GB / 83-file real-world run).
 - **Phase 4** — zip export ✅
 - **Phase 5** — queue + UX polish (deferred retries, pause/resume/delete, job persistence) ✅
 - **Phase 6** — Tauri packaging (sidecar engine, NSIS installer) ✅
+
+## License
+
+[MIT](LICENSE)
