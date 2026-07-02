@@ -20,6 +20,9 @@ src-tauri/target
 src-tauri/gen
 src-tauri/binaries/*.exe
 
+# Local-only notes
+NOTES.md
+
 # Env / secrets
 .env
 .env.local
