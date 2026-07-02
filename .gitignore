@@ -1,0 +1,29 @@
+# Rust
+/target
+**/*.rs.bk
+
+# Downloaded content
+/downloads
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Node / UI
+ui/node_modules
+ui/dist
+node_modules
+
+# Tauri
+src-tauri/target
+src-tauri/gen
+src-tauri/binaries/*.exe
+
+# Env / secrets
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
